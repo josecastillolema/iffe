@@ -1,10 +1,16 @@
 # Lab 1 - AWS S3
 
-Em este lab sobre [**Simple Storage Service (S3)**](https://aws.amazon.com/pt/s3/) aprenderemos alguns conceitos importantes do armazenamento de objetos:
- - Criação de *buckets*
- - Criação de objetos
- - Controle de permissões de acesso
- - Hospedagem de sites estáticos
+Todas las soluciones de *big data* comienzan con el almacenamiento de datos. Este es el primer paso en el *pipeline* de *big data*. [Amazon Simple Storage Service](https://docs.aws.amazon.com/es_es/s3/index.html?id=docs_gateway#lang/es) (Amazon S3) es uno de los servicios más utilizados para almacenar datos.
+
+En este laboratorio, practicaremos el uso de la consola de administración de AWS para crear un *bucket* de S3. Luego cargaremos archivos en Amazon S3 y ejecutaremos consultas simples sobre los datos.
+
+## Objetivos
+ - Familiarizerse con S3 en la Consola de administración de AWS
+ - Crear un *buckets* en S3
+ - Cargar datos (objetos) en un *bucket*
+ - Hacer consultas SQL en *buquets*
+ - Control de permisos de accesso
+ - Alojamiento de sitios web estáticos
 
 ## Criação do *bucket*
  
