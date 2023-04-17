@@ -17,6 +17,7 @@ En este laboratorio, practicaremos el uso de la consola de administración de AW
 2. [Creación de objetos](#creaciondeobjetos)
 
    a. [Una imagen con acceso público](#unaimagen)
+   
    b. [Datos con acceso privado](#datos)
 
 ## Creación del *bucket*
