@@ -19,4 +19,4 @@ Cada proyecto se refiere a clases y/o *labs* realizados en aula.
 
 Siéntase libre de desarrollar estos ejemplos, mientras sean válidos, aceptaré *pull requests* 😄.
 
- - [Lab 01: IaaS - Simple Storage Service (S3)](https://github.com/josecastillolema/fiap/blob/master/shift/multicloud/lab05-iaas-s3.md)
+ - [Lab 01: IaaS - Simple Storage Service (S3)](https://github.com/josecastillolema/iffe/blob/main/lab01-iaas-s3.md)
