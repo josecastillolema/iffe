@@ -5,7 +5,7 @@ Todas las soluciones de *big data* comienzan con el almacenamiento de datos. Est
 En este laboratorio, practicaremos el uso de la consola de administración de AWS para crear un *bucket* de S3. Luego cargaremos archivos en Amazon S3 y ejecutaremos consultas simples sobre los datos.
 
 ## Objetivos
- - Familiarizerse con S3 en la Consola de administración de AWS
+ - Familiarizarse con S3 en la consola de administración de AWS
  - Crear un *buckets* en S3
  - Cargar datos (objetos) en un *bucket*
  - Hacer consultas SQL en *buquets*
