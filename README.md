@@ -13,4 +13,11 @@
 [![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/mbd.png)](https://iffe.es/master-big-data-analitica-negocio/)
 
 
-- Herramientas analíticas en AWS
+### Herramientas analíticas en AWS
+
+Cada proyecto se refiere a clases y/o *labs* realizados en ula.
+
+Siéntase libre de desarrollar estos ejemplos, mientras sean válidos, aceptaré *pull requests* 😄.
+
+ - [Lab 01: IaaS - Elastic Compute Cloud (EC2)](https://github.com/josecastillolema/fiap/blob/master/shift/multicloud/lab01-iaas-ec2.md)
+ - [Lab 02: IaaS - Docker](https://github.com/josecastillolema/fiap/blob/master/shift/multicloud/lab02-iaas-docker.md)
