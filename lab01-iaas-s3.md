@@ -49,10 +49,15 @@ En este laboratorio, practicaremos el uso de la consola de administración de AW
 12. En la misma pestaña, habilitar acceso público:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-10.png)
    
-13. En la pestaña de Permisos del objeto, habilitar accesso público:
+13. En la pestaña de **Permisos** del objeto, habilitar accesso público:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-11.png)
 
 14. Confirmar el accesso público a la imagen mediante la URL del objeto:
+
+    |          | bucket-name |                   | objeto        |
+    |----------|-------------|-------------------|-------------- |
+    | https:// | iffe-mbd    | .s3.amazonaws.com | sic.jpg       |
+    
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-12.png)
    
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-13.png)
@@ -60,21 +65,6 @@ En este laboratorio, practicaremos el uso de la consola de administración de AW
 
 ### Datos con acceso privado
 
-
-
-12. Conferir que o objeto foi criado:
-   ![](https://raw.githubusercontent.com/josecastillolema/fiap/master/shift/multicloud/img/s3-14.png)
-
-13. Na descrição do objeto, podemos obter a url do mesmo:
-
-    |          | bucket-name |                   | objeto        |
-    |----------|-------------|-------------------|-------------- |
-    | https:// | fiap-mba    | .s3.amazonaws.com | sicmundus.jpg |
-
-   ![](https://raw.githubusercontent.com/josecastillolema/fiap/master/shift/multicloud/img/s3-15.png)    
-
-14. Accessar a imagem pela URL do objeto:
-   ![](https://raw.githubusercontent.com/josecastillolema/fiap/master/shift/multicloud/img/s3-16.png)    
 
 
 ## Hospedagem de sites estáticos
