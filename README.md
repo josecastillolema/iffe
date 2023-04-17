@@ -6,11 +6,11 @@
 
 # IFFE
 
-[![](https://raw.githubusercontent.com/josecastillolema/iffe/master/img/iffe.jpeg)](https://iffe.es/)
+[![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/iffe.jpeg)](https://iffe.es/)
 
 ## Máster en Big Data y Analítica de Negocio (MBD)
 
-[![](https://raw.githubusercontent.com/josecastillolema/iffe/master/img/mbd.png)](https://iffe.es/master-big-data-analitica-negocio/)
+[![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/mbd.png)](https://iffe.es/master-big-data-analitica-negocio/)
 
 
 - Herramientas analíticas en AWS
