@@ -12,28 +12,19 @@ En este laboratorio, practicaremos el uso de la consola de administración de AW
  - Control de permisos de accesso
  - Alojamiento de sitios web estáticos
 
-## Criação do *bucket*
+## Creación del *bucket*
  
-1. Accessar o serviço **S3**:
-   ![](https://raw.githubusercontent.com/josecastillolema/fiap/master/shift/multicloud/img/s3-02.png)
+1. Accessar al servicio **S3**:
+   ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-01.png)
 
-2. Criar um novo *bucket*:
-   ![](https://raw.githubusercontent.com/josecastillolema/fiap/master/shift/multicloud/img/s3-03.png)
+2. Crear un nuevo *bucket*:
+   ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-02.png)
 
 3. Escolher um nome para o *bucket*. O nome deve ser único globalmente:
-   ![](https://raw.githubusercontent.com/josecastillolema/fiap/master/shift/multicloud/img/s3-04.png)
-   
-4. Em esta aba podem ser configuradas algumas opções do *bucket*, como versionamento, *logging*, etc.:
-   ![](https://raw.githubusercontent.com/josecastillolema/fiap/master/shift/multicloud/img/s3-05.png)
+   ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-03.png)
 
-5. Habilitar accesso público no *bucket*:
-   ![](https://raw.githubusercontent.com/josecastillolema/fiap/master/shift/multicloud/img/s3-06.png)
-
-6. Confirmar a criação do *bucket*:
-   ![](https://raw.githubusercontent.com/josecastillolema/fiap/master/shift/multicloud/img/s3-08.png)
-
-7. Conferir que o *bucket* foi criado:
-   ![](https://raw.githubusercontent.com/josecastillolema/fiap/master/shift/multicloud/img/s3-09.png)
+7. Confirmar la creación del *bucket* y comprobar que fue correctamente creado:
+   ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-04.png)
 
 ## Criação do objeto
 
