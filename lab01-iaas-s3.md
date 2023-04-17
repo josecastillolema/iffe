@@ -14,7 +14,7 @@ En este laboratorio, practicaremos el uso de la consola de administración de AW
 
 ## Creación del *bucket*
  
-1. Accessar al servicio **S3**:
+1. Accedar al servicio **S3**:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-01.png)
 
 2. Crear un nuevo *bucket*:
