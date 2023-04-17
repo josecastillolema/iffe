@@ -15,6 +15,7 @@ En este laboratorio, practicaremos el uso de la consola de administración de AW
 ## Índice
 1. [Creación del bucket](#creaciondelbucket)
 2. [Creación de objetos](#creaciondeobjetos)
+
    a. [Una imagen con acceso público](#unaimagen)
    b. [Datos con acceso privado](#datos)
 
