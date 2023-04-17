@@ -15,7 +15,7 @@
 
 ### Herramientas analíticas en AWS
 
-Cada proyecto se refiere a clases y/o *labs* realizados en ula.
+Cada proyecto se refiere a clases y/o *labs* realizados en aula.
 
 Siéntase libre de desarrollar estos ejemplos, mientras sean válidos, aceptaré *pull requests* 😄.
 
