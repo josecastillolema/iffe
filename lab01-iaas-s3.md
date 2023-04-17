@@ -30,19 +30,37 @@ En este laboratorio, practicaremos el uso de la consola de administración de AW
 
 ### Una imagen con acceso público
 
+8. Hacer el *upload* de una imagen cualquiera:
+   ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-06.png)
+
+9. Conprobar la creación del objeto:
+   ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-07.png)
+   
+#### Cambio de clase de almacenamiento
+
+10. En la pestaña de **Propiedades** del objecto, cambiar la clase de almacenamiento de *Standard* para *Intelligent-Tiering*:
+   ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-08.png)
+
+#### Acceso público
+
+11. Habilitar las *Access Control List* (ACLs) en la pestaña de **Permisos** del *bucket*:
+   ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-09.png)
+
+12. En la misma pestaña, habilitar acceso público:
+   ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-10.png)
+   
+13. En la pestaña de Permisos del objeto, habilitar accesso público:
+   ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-11.png)
+
+14. Confirmar el accesso público a la imagen mediante la URL del objeto:
+   ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-12.png)
+   
+   ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-13.png)
+
+
 ### Datos con acceso privado
 
-8. Fazer o *upload* de uma imagem qualquer:
-   ![](https://raw.githubusercontent.com/josecastillolema/fiap/master/shift/multicloud/img/s3-10.png)
 
-9. Habilitar accesso público no objeto:
-   ![](https://raw.githubusercontent.com/josecastillolema/fiap/master/shift/multicloud/img/s3-11.png)
-
-10. Seleccionar o *tier* `Standard`:
-   ![](https://raw.githubusercontent.com/josecastillolema/fiap/master/shift/multicloud/img/s3-12.png)
-
-11. Confirmar a criação do objeto:
-   ![](https://raw.githubusercontent.com/josecastillolema/fiap/master/shift/multicloud/img/s3-13.png)
 
 12. Conferir que o objeto foi criado:
    ![](https://raw.githubusercontent.com/josecastillolema/fiap/master/shift/multicloud/img/s3-14.png)
