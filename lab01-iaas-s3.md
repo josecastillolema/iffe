@@ -26,7 +26,11 @@ En este laboratorio, practicaremos el uso de la consola de administración de AW
 7. Confirmar la creación del *bucket* y comprobar que fue correctamente creado:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-04.png)
 
-## Criação do objeto
+## Creación de objetos
+
+### Una imagen con acceso público
+
+### Datos con acceso privado
 
 8. Fazer o *upload* de uma imagem qualquer:
    ![](https://raw.githubusercontent.com/josecastillolema/fiap/master/shift/multicloud/img/s3-10.png)
