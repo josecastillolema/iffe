@@ -12,6 +12,12 @@ En este laboratorio, practicaremos el uso de la consola de administración de AW
  - Control de permisos de accesso
  - Alojamiento de sitios web estáticos
 
+## Índice
+1. [Creación del bucket](#creaciondelbucket)
+2. [Creación de objetos](#creaciondeobjetos)
+    a. [Una imagen con acceso público](#unaimagen)
+    b. [Datos con acceso privado](#datos)
+
 ## Creación del *bucket*
  
 1. Acceder al servicio **S3**:
