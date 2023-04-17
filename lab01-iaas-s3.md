@@ -33,7 +33,7 @@ En este laboratorio, practicaremos el uso de la consola de administración de AW
 8. Hacer el *upload* de una imagen cualquiera:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-06.png)
 
-9. Conprobar la creación del objeto:
+9. Comprobar la creación del objeto:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-07.png)
    
 #### Cambio de clase de almacenamiento
