@@ -1,4 +1,4 @@
-# Lab 5 - AWS S3
+# Lab 1 - AWS S3
 
 Em este lab sobre [**Simple Storage Service (S3)**](https://aws.amazon.com/pt/s3/) aprenderemos alguns conceitos importantes do armazenamento de objetos:
  - Criação de *buckets*
