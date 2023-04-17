@@ -54,9 +54,9 @@ En este laboratorio, practicaremos el uso de la consola de administración de AW
 
 14. Confirmar el accesso público a la imagen mediante la URL del objeto:
 
-    |          | bucket-name |                   | objeto        |
-    |----------|-------------|-------------------|-------------- |
-    | https:// | iffe-mbd    | .s3.amazonaws.com | sic.jpg       |
+    |          | bucket-name |                    | objeto        |
+    |----------|-------------|--------------------|-------------- |
+    | https:// | iffe-mbd    | .s3.amazonaws.com/ | sic.jpg       |
     
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-12.png)
    
