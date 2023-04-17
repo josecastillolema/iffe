@@ -20,7 +20,7 @@ En este laboratorio, practicaremos el uso de la consola de administración de AW
 2. Crear un nuevo *bucket*:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-02.png)
 
-3. Escolher um nome para o *bucket*. O nome deve ser único globalmente:
+3. Escoger un nombre para el *bucket*. El nombre debe ser único globalmente:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-03.png)
 
 7. Confirmar la creación del *bucket* y comprobar que fue correctamente creado:
