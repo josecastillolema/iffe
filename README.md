@@ -6,7 +6,7 @@
 
 # IFFE
 
-[!(https://raw.githubusercontent.com/josecastillolema/iffe/master/img/iffe.jpeg)](https://iffe.es/)
+[![](https://raw.githubusercontent.com/josecastillolema/iffe/master/img/iffe.jpeg)](https://iffe.es/)
 
 ## Máster en Big Data y Analítica de Negocio (MBD)
 
