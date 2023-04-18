@@ -8,17 +8,24 @@ En este laboratorio, practicaremos el uso de la consola de administración de AW
  - Familiarizarse con S3 en la consola de administración de AWS
  - Crear un *buckets* en S3
  - Cargar datos (objetos) en un *bucket*
- - Hacer consultas SQL en *buquets*
+ - Hacer consultas SQL a objetos
  - Control de permisos de accesso
  - Alojamiento de sitios web estáticos
 
 ## Índice
-1. [Creación del bucket](#creaciondelbucket)
-2. [Creación de objetos](#creaciondeobjetos)
-
-   a. [Una imagen con acceso público](#unaimagen)
-   
-   b. [Datos con acceso privado](#datos)
+- [Lab 1 - AWS S3](#lab-1---aws-s3)
+  - [Objetivos](#objetivos)
+  - [Índice](#índice)
+  - [Creación del *bucket*](#creación-del-bucket)
+  - [Creación de objetos](#creación-de-objetos)
+    - [Una imagen con acceso público](#una-imagen-con-acceso-público)
+      - [Cambio de clase de almacenamiento](#cambio-de-clase-de-almacenamiento)
+      - [Acceso público](#acceso-público)
+    - [Datos con acceso privado](#datos-con-acceso-privado)
+      - [Versionamiento](#versionamiento)
+      - [Consulta SQL](#consulta-sql)
+  - [Alojamiento de sitios web estáticos](#alojamiento-de-sitios-web-estáticos)
+  - [Clean up](#clean-up)
 
 ## Creación del *bucket*
  
@@ -73,23 +80,49 @@ En este laboratorio, practicaremos el uso de la consola de administración de AW
 
 ### Datos con acceso privado
 
+15. Hacer el *upload* de [este archivo .csv](https://github.com/josecastillolema/iffe/blob/main/lab01-iaas-s3/lab1.csv) y comprobar la creación del objeto:
+   ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-14.png)
 
+#### Versionamiento
 
-## Hospedagem de sites estáticos
+16. En la pestaña de **Propiedades** del objecto, habilitar versionamiento:
+   ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-15.png)
+
+#### Consulta SQL
+
+17. En la descripción del objeto, seleccionar **Object actions -> Query with S3 Select**:
+   ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-16.png)
+
+18. Probar algunas *queries*:
+    - `SELECT * FROM s3object s;`
+    - `SELECT count(*) FROM s3object s;`
+  
+      ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-17.png)
+
+      ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-18.png)
+
+## Alojamiento de sitios web estáticos
     
-15. Alterar a configuração do bucket para permitir o armazenamento de sites estáticos:
-   ![](https://raw.githubusercontent.com/josecastillolema/fiap/master/shift/multicloud/img/s3-17.png)    
+19.  En la pestaña de **Propiedades** del *bucket*, alterar la configuración para permitir el alojamiento de sitios web estáticos e introducir el nombre del archivo `html` principal:
+      ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-19.png)
 
-16. Introducir o nome do arquivo `html` principal:
-   ![](https://raw.githubusercontent.com/josecastillolema/fiap/master/shift/multicloud/img/s3-18.png)    
+20. Hacer el *upload* de [este archivo .html](https://github.com/josecastillolema/iffe/blob/main/lab01-iaas-s3/index.html) y comprobar la creación del objeto:
+   ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-20.png)
 
-17. Fazer *upload* do arquivo [`index.html`](https://github.com/josecastillolema/fiap/blob/master/shift/multicloud/lab05-iaas-s3/index.html) (ou de qualquer outro arquivo `html`) com permissão de accesso público, como descrito na [criação de objeto](#criação-do-objeto)
+21. Habilitar acceso público para este objeto como descrito en [Acceso público](#acceso-público)
 
-17. A URL no modo armazenamento de sites estáticos apresenta um novo formato:
+22. Consultar la nueva URL en la pestaña de **Propiedades** del *bucket*. La URL en el modo de alojamiento de sitios web estáticos tiene un formato nuevo:
 
     |          | bucket-name |            | region    |               |
     |----------|-------------|------------|---------- | --------------|
-    | https:// | fiap-mba    | s3-website | us-east-1 | amazonaws.com |
+    | https:// | iffe-mbd    | s3-website | us-east-1 | amazonaws.com |
 
-18. Acessar o site pela nova URL do *bucket*:
-   ![](https://raw.githubusercontent.com/josecastillolema/fiap/master/shift/multicloud/img/s3-19.png)    
+      ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-21.png)
+
+23. Accesar el sitio web por la nueva URL:
+   ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-22.png)   
+
+
+## Clean up
+
+21. Borrar el bucket
