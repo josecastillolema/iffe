@@ -69,7 +69,7 @@ En este laboratorio, practicaremos el uso de la consola de administración de AW
 
 14. Confirmar el accesso público a la imagen mediante la URL del objeto:
 
-    |          | bucket-name |                    | objeto        |
+    |          | bucket      |                    | objeto        |
     |----------|-------------|--------------------|-------------- |
     | https:// | iffe-mbd    | .s3.amazonaws.com/ | sic.jpg       |
     
@@ -113,7 +113,7 @@ En este laboratorio, practicaremos el uso de la consola de administración de AW
 
 22. Consultar la nueva URL en la pestaña de **Propiedades** del *bucket*. La URL en el modo de alojamiento de sitios web estáticos tiene un formato nuevo:
 
-    |          | bucket-name |            | region    |               |
+    |          | bucket      |            | region    |               |
     |----------|-------------|------------|---------- | --------------|
     | https:// | iffe-mbd    | s3-website | us-east-1 | amazonaws.com |
 
