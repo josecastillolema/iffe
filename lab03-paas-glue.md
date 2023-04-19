@@ -65,7 +65,7 @@ AWS Glue se integra con las siguientes fuentes de datos:
 9. La nueva tabla importada nos da la opción de visualizar los datos en Athena. Nótese que en la sección inferior podemos ver el esquema que fue automáticamente extraído a partir de los datos:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/glue-09.png)
 
-10. En Athena podemos hacer un preview de los datos para confirmar que fueron correctamente importados:
+10. En Athena podemos hacer un _preview_ de los datos para confirmar que fueron correctamente importados:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/glue-10.png)
 
 ## Desafios
