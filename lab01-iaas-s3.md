@@ -26,6 +26,7 @@ En este laboratorio, practicaremos el uso de la consola de administración de AW
     - [Datos con acceso privado](#datos-con-acceso-privado)
       - [Versionamiento](#versionamiento)
       - [Consulta SQL](#consulta-sql)
+    - [Datos comprimidos](#datos-comprimidos)
   - [Alojamiento de sitios web estáticos](#alojamiento-de-sitios-web-estáticos)
   - [Clean up](#clean-up)
 
@@ -82,7 +83,7 @@ En este laboratorio, practicaremos el uso de la consola de administración de AW
 
 ### Datos con acceso privado
 
-15. Hacer el *upload* de [este archivo .csv](https://github.com/josecastillolema/iffe/blob/main/lab01-iaas-s3/lab1.csv) y comprobar la creación del objeto:
+15. Hacer el *upload* de [este archivo `.csv`](https://github.com/josecastillolema/iffe/blob/main/lab01-iaas-s3/lab1.csv) y comprobar la creación del objeto:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-14.png)
 
 #### Versionamiento
@@ -103,21 +104,27 @@ En este laboratorio, practicaremos el uso de la consola de administración de AW
 
       ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-18.png)
       
-19. Inspirandose en los templates, crea las siguientes queries:
+19. **Desafío**. Inspirándose en los templates, crea las siguientes queries:
     - Lista de *Customer IDs* y *Last Names*
     - Número de clientes de NY
 
+### Datos comprimidos
+
+Para escenarios de big data, es común almacenar archivos comprimidos en Amazon S3. Amazon S3 admite los formatos de compresión `.gzip` y `.bzip2`.
+
+20.  Repetir el [proceso anterior](#consulta-sql) con este [este archivo `.csv` comprimido](https://github.com/josecastillolema/iffe/blob/main/lab01-iaas-s3/lab1.csv.gz)
+
 ## Alojamiento de sitios web estáticos
     
-20.  En la pestaña de **Propiedades** del *bucket*, alterar la configuración para permitir el alojamiento de sitios web estáticos e introducir el nombre del archivo `html` principal:
+21.  En la pestaña de **Propiedades** del *bucket*, alterar la configuración para permitir el alojamiento de sitios web estáticos e introducir el nombre del archivo `html` principal:
       ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-19.png)
 
-21. Hacer el *upload* de [este archivo .html](https://github.com/josecastillolema/iffe/blob/main/lab01-iaas-s3/index.html) y comprobar la creación del objeto:
+22. Hacer el *upload* de [este archivo .html](https://github.com/josecastillolema/iffe/blob/main/lab01-iaas-s3/index.html) y comprobar la creación del objeto:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-20.png)
 
-22. Habilitar acceso público para este objeto como descrito en [Acceso público](#acceso-público)
+23. Habilitar acceso público para este objeto como descrito en [Acceso público](#acceso-público)
 
-23. Consultar la nueva URL en la pestaña de **Propiedades** del *bucket*. La URL en el modo de alojamiento de sitios web estáticos tiene un formato nuevo:
+24. Consultar la nueva URL en la pestaña de **Propiedades** del *bucket*. La URL en el modo de alojamiento de sitios web estáticos tiene un formato nuevo:
 
     |          | bucket      |            | region    |               |
     |----------|-------------|------------|---------- | --------------|
@@ -125,10 +132,10 @@ En este laboratorio, practicaremos el uso de la consola de administración de AW
 
       ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-21.png)
 
-24. Accesar el sitio web por la nueva URL:
+25. Accesar el sitio web por la nueva URL:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-22.png)   
 
 
 ## Clean up
 
-25. Borrar el bucket
+26. Borrar el bucket

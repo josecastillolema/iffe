@@ -20,3 +20,4 @@ Cada proyecto se refiere a clases y/o *labs* realizados en aula.
 Siéntase libre de desarrollar estos ejemplos, mientras sean válidos, aceptaré *pull requests* 😄.
 
  - [Lab 01: IaaS - Simple Storage Service (S3)](https://github.com/josecastillolema/iffe/blob/main/lab01-iaas-s3.md)
+ - [Lab 02: PaaS - Athena](https://github.com/josecastillolema/iffe/blob/main/lab02-paas-athena.md)
