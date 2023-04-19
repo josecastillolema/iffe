@@ -26,6 +26,7 @@ En este laboratorio, practicaremos el uso de la consola de administración de AW
     - [Datos con acceso privado](#datos-con-acceso-privado)
       - [Versionamiento](#versionamiento)
       - [Consulta SQL](#consulta-sql)
+      - [Desafíos](#desafíos)
     - [Datos comprimidos](#datos-comprimidos)
   - [Alojamiento de sitios web estáticos](#alojamiento-de-sitios-web-estáticos)
   - [Clean up](#clean-up)
@@ -104,7 +105,8 @@ En este laboratorio, practicaremos el uso de la consola de administración de AW
 
       ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-18.png)
       
-19. **Desafío**. Inspirándose en los templates, crea las siguientes queries:
+#### Desafíos
+Inspirándose en los *templates*, crea las siguientes queries:
     - Lista de *Customer IDs* y *Last Names*
     - Número de clientes de NY
 
