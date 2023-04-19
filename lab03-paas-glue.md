@@ -70,7 +70,7 @@ AWS Glue se integra con las siguientes fuentes de datos:
 
 ## Desafios
 
- - En Athena, recuperar la lista de *Customer IDs* y *Last Names*
+ - Desde Athena, recuperar la lista de *Customer IDs* y *Last Names*
 
 ## Clean up
 
