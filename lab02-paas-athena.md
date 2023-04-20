@@ -1,6 +1,6 @@
 # Lab 2 - Amazon Athena
 
-Cuando trabajamos en soluciones de *big data*, a menudo es necesário acceder a datos de múltiples fuentes (una base de datos transaccional, un flujo de datos en vivo o contenido web no estructurado almazenado en Amazon S3). Con [Amazon Athena](https://aws.amazon.com/es/athena/) es posible agregar los archivos en Amazon S3 y reestructurar los datos para su posterior análisis. Athena es un servicio *serverless*, por lo que no es necesário configurar ni administrar ninguna infraestructura.
+Cuando trabajamos en soluciones de *big data*, a menudo es necesario acceder a datos de múltiples fuentes (una base de datos transaccional, un flujo de datos en vivo o contenido web no estructurado almazenado en Amazon S3). Con [Amazon Athena](https://aws.amazon.com/es/athena/) es posible agregar los archivos en Amazon S3 y reestructurar los datos para su posterior análisis. Athena es un servicio *serverless*, por lo que no es necesario configurar ni administrar ninguna infraestructura.
 
 Athena puede usarse para consultar datos estructurados, no estructurados y semiestructurados. Además, Athena se integra con [AWS Glue](https://aws.amazon.com/es/glue/).
 
