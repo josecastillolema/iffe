@@ -57,7 +57,7 @@ AWS Glue se integra con las siguientes fuentes de datos:
 7. Una vez creado el *crawler*, ejecutarlo usando la opción ***Run crawler*** y aguardar a que termine:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/glue-07.png)
 
-8. Una nueva tabla (`imported_data`) debería estar disponíble en la pestaña de tablas (puede ser necesário hacer un *refresh* para que aparezca):
+8. Una nueva tabla (`imported_data`) debería estar disponíble en la pestaña de tablas (puede ser necesario hacer un *refresh* para que aparezca):
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/glue-08.png)
 
 ## Visualización de los datos importados desde Athena
