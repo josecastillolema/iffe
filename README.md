@@ -22,3 +22,4 @@ Siéntase libre de desarrollar estos ejemplos, mientras sean válidos, aceptaré
  - [Lab 01: IaaS - Simple Storage Service (S3)](https://github.com/josecastillolema/iffe/blob/main/lab01-iaas-s3.md)
  - [Lab 02: PaaS - Athena](https://github.com/josecastillolema/iffe/blob/main/lab02-paas-athena.md)
  - [Lab 03: PaaS - Glue](https://github.com/josecastillolema/iffe/blob/main/lab03-paas-glue.md)
+ - [Lab 04: PaaS - Redshift](https://github.com/josecastillolema/iffe/blob/main/lab04-paas-redshift.md)

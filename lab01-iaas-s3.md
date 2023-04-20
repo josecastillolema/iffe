@@ -29,7 +29,7 @@ En este laboratorio, practicaremos el uso de la consola de administración de AW
       - [Desafíos](#desafíos)
     - [Datos comprimidos](#datos-comprimidos)
   - [Alojamiento de sitios web estáticos](#alojamiento-de-sitios-web-estáticos)
-  - [Clean up](#clean-up)
+  - [*Clean up*](#clean-up)
 
 ## Creación del *bucket*
  
@@ -138,6 +138,6 @@ Para escenarios de big data, es común almacenar archivos comprimidos en Amazon 
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-22.png)   
 
 
-## Clean up
+## *Clean up*
 
-26. Borrar el bucket
+26. Borrar el *bucket*

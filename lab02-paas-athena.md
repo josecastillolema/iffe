@@ -21,8 +21,8 @@ Athena puede usarse para consultar datos estructurados, no estructurados y semie
   - [Configuración del ambiente](#configuración-del-ambiente)
   - [Creación de la base de datos](#creación-de-la-base-de-datos)
     - [Importación de los datos de S3](#importación-de-los-datos-de-s3)
-  - [Desafios](#desafios)
-  - [Clean up](#clean-up)
+  - [Desafíos](#desafíos)
+  - [*Clean up*](#clean-up)
 
 ## Prerequisitos
  
@@ -76,13 +76,13 @@ Athena puede usarse para consultar datos estructurados, no estructurados y semie
 12. Ejecutar un *preview* de la tabla recién creada para comprobar que los dados fueron correctamente importados:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/athena-07.png)
    
-## Desafios
+## Desafíos
 
  - Lista de *Customer IDs* y *Last Names*
  - Número de clientes de NY
  - Crear una nueva tabla `american_customers_norm` convirtiendo `join_date` de tipo de dato `string` a `date`
  - Número de clientes registrados desde 2014
 
-## Clean up
+## *Clean up*
 
 13.  Borrar la base de datos y las tablas creadas

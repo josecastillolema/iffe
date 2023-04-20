@@ -24,8 +24,8 @@ AWS Glue se integra con las siguientes fuentes de datos:
   - [Prerequisitos](#prerequisitos)
   - [Creación del *crawler*](#creación-del-crawler)
   - [Visualización de los datos importados desde Athena](#visualización-de-los-datos-importados-desde-athena)
-  - [Desafios](#desafios)
-  - [Clean up](#clean-up)
+  - [Desafíos](#desafíos)
+  - [*Clean up*](#clean-up)
 
 ## Prerequisitos
  
@@ -68,10 +68,10 @@ AWS Glue se integra con las siguientes fuentes de datos:
 10. En Athena podemos hacer un _preview_ de los datos para confirmar que fueron correctamente importados:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/glue-10.png)
 
-## Desafios
+## Desafíos
 
  - Desde Athena, recuperar la lista de *Customer IDs* y *Last Names*
 
-## Clean up
+## *Clean up*
 
 11.   Borrar la base de datos y las tablas creadas
