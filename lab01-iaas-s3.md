@@ -2,7 +2,7 @@
 
 Todas las soluciones de *big data* comienzan con el almacenamiento de datos. Este es el primer paso en el *pipeline* de *big data*. [Amazon Simple Storage Service](https://docs.aws.amazon.com/es_es/s3/index.html?id=docs_gateway#lang/es) (Amazon S3) es uno de los servicios más utilizados para almacenar datos.
 
-En este laboratorio, practicaremos el uso de la consola de administración de AWS para crear un *bucket* de S3. Luego cargaremos archivos en Amazon S3 y ejecutaremos consultas simples sobre los datos.
+En este laboratorio practicaremos el uso de la consola de administración de AWS para crear un *bucket* de S3. Luego cargaremos archivos y ejecutaremos consultas simples sobre los datos.
 
 ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-00.png)
 
