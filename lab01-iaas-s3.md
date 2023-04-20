@@ -24,7 +24,7 @@ En este laboratorio, practicaremos el uso de la consola de administración de AW
       - [Cambio de clase de almacenamiento](#cambio-de-clase-de-almacenamiento)
       - [Acceso público](#acceso-público)
     - [Datos con acceso privado](#datos-con-acceso-privado)
-      - [Versionamiento](#versionamiento)
+      - [Versionado](#versionado)
       - [Consulta SQL](#consulta-sql)
       - [Desafíos](#desafíos)
     - [Datos comprimidos](#datos-comprimidos)
@@ -87,9 +87,9 @@ En este laboratorio, practicaremos el uso de la consola de administración de AW
 15. Hacer el *upload* de [este archivo `.csv`](https://github.com/josecastillolema/iffe/blob/main/lab01-iaas-s3/lab1.csv) y comprobar la creación del objeto:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-14.png)
 
-#### Versionamiento
+#### Versionado
 
-16. En la pestaña de **Propiedades** del objecto, habilitar versionamiento:
+16. En la pestaña de **Propiedades** del objecto, habilitar versionado:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-15.png)
 
 #### Consulta SQL
