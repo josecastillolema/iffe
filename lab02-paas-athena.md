@@ -17,14 +17,14 @@ Athena puede usarse para consultar datos estructurados, no estructurados y semie
 - [Lab 2 - Amazon Athena](#lab-2---amazon-athena)
   - [Objetivos](#objetivos)
   - [Índice](#índice)
-  - [Prerequisitos](#prerequisitos)
+  - [Prerrequisitos](#prerrequisitos)
   - [Configuración del ambiente](#configuración-del-ambiente)
   - [Creación de la base de datos](#creación-de-la-base-de-datos)
     - [Importación de los datos de S3](#importación-de-los-datos-de-s3)
   - [Desafíos](#desafíos)
   - [*Clean up*](#clean-up)
 
-## Prerequisitos
+## Prerrequisitos
  
 - Un *bucket* de S3 para almacenar los resultados
 - Otro *bucket* (puede ser el mismo) con [este archivo `.csv`](https://github.com/josecastillolema/iffe/blob/main/lab01-iaas-s3/lab1.csv)

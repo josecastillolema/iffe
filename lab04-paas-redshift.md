@@ -16,14 +16,14 @@ Los analistas de datos a menudo trabajan con conjuntos de datos muy grandes. Por
 - [Lab 4 - Amazon Redshift](#lab-4---amazon-redshift)
   - [Objetivos](#objetivos)
   - [Índice](#índice)
-  - [Prerequisitos](#prerequisitos)
+  - [Prerrequisitos](#prerrequisitos)
   - [Creación del clúster](#creación-del-clúster)
   - [Conexión al banco](#conexión-al-banco)
   - [Importación de datos de S3](#importación-de-datos-de-s3)
   - [Desafíos](#desafíos)
   - [*Clean up*](#clean-up)
 
-## Prerequisitos
+## Prerrequisitos
  
 - Un *bucket* con [este archivo `.csv`](https://github.com/josecastillolema/iffe/blob/main/lab01-iaas-s3/lab1.csv)
 - El archivo `.csv` debe estar dentro de un directório cualquiera en el *bucket* y no en la raíz del mismo (por ejemplo `data`):

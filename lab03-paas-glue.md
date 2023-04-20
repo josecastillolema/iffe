@@ -21,13 +21,13 @@ AWS Glue se integra con las siguientes fuentes de datos:
 - [Lab 3 - AWS Glue](#lab-3---aws-glue)
   - [Objetivos](#objetivos)
   - [Índice](#índice)
-  - [Prerequisitos](#prerequisitos)
+  - [Prerrequisitos](#prerrequisitos)
   - [Creación del *crawler*](#creación-del-crawler)
   - [Visualización de los datos importados desde Athena](#visualización-de-los-datos-importados-desde-athena)
   - [Desafíos](#desafíos)
   - [*Clean up*](#clean-up)
 
-## Prerequisitos
+## Prerrequisitos
  
 - Un *bucket* de S3 para almacenar los resultados de Athena
 - Otro *bucket* (puede ser el mismo) con [este archivo `.csv`](https://github.com/josecastillolema/iffe/blob/main/lab01-iaas-s3/lab1.csv)
