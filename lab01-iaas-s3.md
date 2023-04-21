@@ -112,7 +112,7 @@ Inspirándose en los *templates*, crea las siguientes queries:
 
 ### Datos comprimidos
 
-Para escenarios de big data, es común almacenar archivos comprimidos en Amazon S3. Amazon S3 admite los formatos de compresión `.gzip` y `.bzip2`.
+Para escenarios de big data, es común almacenar archivos comprimidos en S3, que admite los formatos de compresión `.gzip` y `.bzip2`.
 
 20.  Repetir el [proceso anterior](#consulta-sql) con este [este archivo `.csv` comprimido](https://github.com/josecastillolema/iffe/blob/main/lab01-iaas-s3/lab1.csv.gz)
 
