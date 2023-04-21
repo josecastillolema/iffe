@@ -107,8 +107,8 @@ En este laboratorio practicaremos el uso de la consola de administración de AWS
       
 #### Desafíos
 Inspirándose en los *templates*, crea las siguientes queries:
-    - Lista de *Customer IDs* y *Last Names*
-    - Número de clientes de NY
+ - Lista de *Customer IDs* y *Last Names*
+ - Número de clientes de NY
 
 ### Datos comprimidos
 
