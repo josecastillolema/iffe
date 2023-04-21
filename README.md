@@ -23,3 +23,4 @@ Siéntase libre de desarrollar estos ejemplos, mientras sean válidos, aceptaré
  - [Lab 02: PaaS - Athena](https://github.com/josecastillolema/iffe/blob/main/lab02-paas-athena.md)
  - [Lab 03: PaaS - Glue](https://github.com/josecastillolema/iffe/blob/main/lab03-paas-glue.md)
  - [Lab 04: PaaS - Redshift](https://github.com/josecastillolema/iffe/blob/main/lab04-paas-redshift.md)
+ - [Lab 05: PaaS - SageMaker](https://github.com/josecastillolema/iffe/blob/main/lab05-paas-sagemaker.md)
