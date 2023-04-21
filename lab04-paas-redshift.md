@@ -2,7 +2,7 @@
 
 Los analistas de datos a menudo trabajan con conjuntos de datos muy grandes. Por ejemplo, algunos *data warehouses* pueden contener varios petabytes de datos y los *datalakes* pueden ser incluso más grandes. Este lab aborda el aspecto de volumen de los problemas de big data (**Volumen**, Variedad, Velocidad, Veracidad y Valor).
 
-[Amazon Redshift](https://aws.amazon.com/es/redshift/) está diseñado para manejar conjuntos de datos extremadamente grandes. A diferencia de los sistemas de administración de bases de datos relacionales tradicionales, Redshift utiliza almacenamiento de datos columnar mejorando el rendimiento de las consultas y ahorrando en costos de almacenamiento.
+[Amazon Redshift](https://aws.amazon.com/es/redshift/) está diseñado para manejar conjuntos de datos extremadamente grandes. A diferencia de los sistemas de administración de bases de datos relacionales tradicionales, Redshift utiliza almacenamiento de datos columnar mejorando el rendimiento de las consultas y ahorrando en costos de almacenamiento. Información adicional sobre la arquitectura de Redshift [aquí](https://docs.aws.amazon.com/es_es/redshift/latest/dg/c_redshift_system_overview.html).
 
 ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/redshift-00.png)
 
