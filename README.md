@@ -10,7 +10,7 @@
 
 ## Máster en Big Data y Analítica de Negocio (MBD)
 
-[![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/mbd.png)](https://iffe.es/master-big-data-analitica-negocio/)
+[![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/mbd.jpg)](https://iffe.es/master-big-data-analitica-negocio/)
 
 
 ### Herramientas analíticas en AWS
