@@ -32,7 +32,7 @@ En este laboratorio practicaremos el uso de la consola de administración de AWS
   - [*Clean up*](#clean-up)
 
 ## Creación del *bucket*
- 
+
 1. Acceder al servicio **S3**:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-01.png)
 
@@ -54,7 +54,7 @@ En este laboratorio practicaremos el uso de la consola de administración de AWS
 
 9. Comprobar la creación del objeto:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-07.png)
-   
+
 #### Cambio de clase de almacenamiento
 
 10. En la pestaña de **Propiedades** del objecto, cambiar la clase de almacenamiento de *Standard* para *Intelligent-Tiering*:
@@ -67,7 +67,7 @@ En este laboratorio practicaremos el uso de la consola de administración de AWS
 
 12. En la misma pestaña, habilitar acceso público:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-10.png)
-   
+
 13. En la pestaña de **Permisos** del objeto, habilitar accesso público:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-11.png)
 
@@ -76,9 +76,9 @@ En este laboratorio practicaremos el uso de la consola de administración de AWS
     |          | bucket      |                    | objeto        |
     |----------|-------------|--------------------|-------------- |
     | https:// | iffe-mbd    | .s3.amazonaws.com/ | sic.jpg       |
-    
+
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-12.png)
-   
+
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-13.png)
 
 
@@ -87,24 +87,28 @@ En este laboratorio practicaremos el uso de la consola de administración de AWS
 15. Hacer el *upload* de [este archivo `.csv`](https://github.com/josecastillolema/iffe/blob/main/lab01-iaas-s3/lab1.csv) y comprobar la creación del objeto:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-14.png)
 
+16. Intentar acceder al objeto mediante su URL:
+   ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-14_2.png)
+
+
 #### Versionado
 
-16. En la pestaña de **Propiedades** del objecto, habilitar versionado:
+17. En la pestaña de **Propiedades** del objecto, habilitar versionado:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-15.png)
 
 #### Consulta SQL
 
-17. En la descripción del objeto, seleccionar **Object actions -> Query with S3 Select**:
+18. En la descripción del objeto, seleccionar **Object actions -> Query with S3 Select**:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-16.png)
 
-18. Probar algunas *queries*:
+19. Probar algunas *queries*:
     - `SELECT * FROM s3object s;`
     - `SELECT count(*) FROM s3object s;`
-  
+
       ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-17.png)
 
       ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-18.png)
-      
+
 #### Desafíos
 Inspirándose en los *templates*, crea las siguientes queries:
  - Lista de *Customer IDs* y *Last Names*
@@ -117,7 +121,7 @@ Para escenarios de big data, es común almacenar archivos comprimidos en S3, que
 20.  Repetir el [proceso anterior](#consulta-sql) con este [este archivo `.csv` comprimido](https://github.com/josecastillolema/iffe/blob/main/lab01-iaas-s3/lab1.csv.gz)
 
 ## Alojamiento de sitios web estáticos
-    
+
 21.  En la pestaña de **Propiedades** del *bucket*, alterar la configuración para permitir el alojamiento de sitios web estáticos e introducir el nombre del archivo `html` principal:
       ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-19.png)
 
@@ -135,7 +139,7 @@ Para escenarios de big data, es común almacenar archivos comprimidos en S3, que
       ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-21.png)
 
 25. Accesar el sitio web por la nueva URL:
-   ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-22.png)   
+   ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/s3-22.png)
 
 
 ## *Clean up*
