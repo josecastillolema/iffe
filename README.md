@@ -20,10 +20,10 @@ Cada proyecto se refiere a clases y/o *labs* realizados en aula.
 Siéntase libre de desarrollar estos ejemplos, mientras sean válidos, aceptaré *pull requests* 😄.
 
  - [Lab 01: IaaS - Simple Storage Service (S3)](https://github.com/josecastillolema/iffe/blob/main/lab01-iaas-s3.md)
- - [Lab 02: PaaS - Athena](https://github.com/josecastillolema/iffe/blob/main/lab02-paas-athena.md)
- - [Lab 03: PaaS - Glue](https://github.com/josecastillolema/iffe/blob/main/lab03-paas-glue.md)
- - [Lab 04: PaaS - Redshift](https://github.com/josecastillolema/iffe/blob/main/lab04-paas-redshift.md)
- - [Lab 05: PaaS - SageMaker](https://github.com/josecastillolema/iffe/blob/main/lab05-paas-sagemaker.md)
+ - [Lab 03: PaaS - Athena](https://github.com/josecastillolema/iffe/blob/main/lab03-paas-athena.md)
+ - [Lab 04: PaaS - Glue](https://github.com/josecastillolema/iffe/blob/main/lab04-paas-glue.md)
+ - [Lab 05: PaaS - Redshift](https://github.com/josecastillolema/iffe/blob/main/lab05-paas-redshift.md)
+ - [Lab 06: PaaS - SageMaker](https://github.com/josecastillolema/iffe/blob/main/lab06-paas-sagemaker.md)
  
  <br><br>
 
