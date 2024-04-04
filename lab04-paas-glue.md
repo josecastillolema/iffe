@@ -54,7 +54,7 @@ AWS Glue se integra con las siguientes fuentes de datos:
 6. En el cuarto paso, escoger la base de datos y el prefijo de la tabla que será creada al importar los datos. En este paso es posible también definir la frecuencia con la qual rodar el *crawler* (por demanda, diariamente, etc.):
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/glue-06.png)
    
-7. Una vez creado el *crawler*, ejecutarlo usando la opción ***Run crawler*** y aguardar a que termine:
+7. Una vez creado el *crawler*, ejecutarlo usando la opción ***Run crawler*** y esperar a que termine:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/glue-07.png)
 
 8. Una nueva tabla (`imported_data`) debería estar disponíble en la pestaña de tablas (puede ser necesario hacer un *refresh* para que aparezca):
