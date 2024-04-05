@@ -20,37 +20,38 @@ Cada proyecto se refiere a clases y/o *labs* realizados en aula.
 Siéntase libre de desarrollar estos ejemplos, mientras sean válidos, aceptaré *pull requests* 😄.
 
  - [Lab 01: IaaS - Simple Storage Service (S3)](https://github.com/josecastillolema/iffe/blob/main/lab01-iaas-s3.md)
+ - [Lab 02: IaaS - Elastic Compute Cloud (EC2)](https://github.com/josecastillolema/iffe/blob/main/lab02-iaas-ec2.md)
  - [Lab 03: PaaS - Athena](https://github.com/josecastillolema/iffe/blob/main/lab03-paas-athena.md)
  - [Lab 04: PaaS - Glue](https://github.com/josecastillolema/iffe/blob/main/lab04-paas-glue.md)
  - [Lab 05: PaaS - Redshift](https://github.com/josecastillolema/iffe/blob/main/lab05-paas-redshift.md)
  - [Lab 06: PaaS - SageMaker](https://github.com/josecastillolema/iffe/blob/main/lab06-paas-sagemaker.md)
- 
+
  <br><br>
 
 <p float="left">
-  <a href="https://josecastillolema.github.io/aws-academy/">  
+  <a href="https://josecastillolema.github.io/aws-academy/">
     <img src="https://raw.githubusercontent.com/josecastillolema/fiap/master/img/aws-academy-2.png" width="100" />
   </a>
   <a href="https://josecastillolema.github.io/aws-educate/">
-    <img src="https://raw.githubusercontent.com/josecastillolema/fiap/master/img/aws_educate.jpg" width="100" /> 
+    <img src="https://raw.githubusercontent.com/josecastillolema/fiap/master/img/aws_educate.jpg" width="100" />
   </a>
-  <a href="https://josecastillolema.github.io/aws-community-builder/">  
+  <a href="https://josecastillolema.github.io/aws-community-builder/">
     <img src="https://raw.githubusercontent.com/josecastillolema/fiap/master/img/aws_community_builder.png" width="100" />
   </a>
-  <a href="https://josecastillolema.github.io/mct/">  
+  <a href="https://josecastillolema.github.io/mct/">
     <img src="https://raw.githubusercontent.com/josecastillolema/fiap/master/img/mct.png" width="100" />
   </a>
 </p>
 
 <p float="left">
   <a href="https://josecastillolema.github.io/mie/">
-    <img src="https://raw.githubusercontent.com/josecastillolema/fiap/master/img/mie.png" width="100" /> 
+    <img src="https://raw.githubusercontent.com/josecastillolema/fiap/master/img/mie.png" width="100" />
   </a>
-  <a href="https://josecastillolema.github.io/haina/">  
+  <a href="https://josecastillolema.github.io/haina/">
     <img src="https://raw.githubusercontent.com/josecastillolema/fiap/master/img/hcai.png" width="100" />
   </a>
   <a href="https://josecastillolema.github.io/redhat-academy/">
-    <img src="https://raw.githubusercontent.com/josecastillolema/fiap/master/img/rh_academy.png" width="100" /> 
+    <img src="https://raw.githubusercontent.com/josecastillolema/fiap/master/img/rh_academy.png" width="100" />
   </a>
 </p>
 
