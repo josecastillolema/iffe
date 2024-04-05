@@ -1,4 +1,4 @@
-# Lab 1 - AWS EC2
+# Lab 2 - AWS EC2
 
 ## Creando la instancia
 Usaremos la imagem oficial `Amazon Linux` para aprender algunos conceptos importantes de [**Amazon Elastic Computing**](https://aws.amazon.com/es/ec2/):
