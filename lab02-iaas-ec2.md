@@ -34,7 +34,7 @@ Usaremos la imagem oficial `Amazon Linux` para aprender algunos conceptos import
 8. [**Linux/MAC**] Seguimos las propias indicaciones de EC2:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/ec2-09.png)
 
-    [**Windows**] Usaremos el cliente nativo de SSH (o si no está disponible [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) siguiendo estas [instruccioes](https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/putty.html)). Como alternativa a PuTTy, [MobaXterm](https://mobaxterm.mobatek.net/) es una buena opción.
+    [**Windows**] Usaremos el cliente nativo de SSH (o si no está disponible [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) siguiendo estas [instruccioes](https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/putty.html)). Como alternativa a PuTTy, [MobaXterm](https://mobaxterm.mobatek.net/) es una buena opción.
 
 9. [**Linux/MAC**] En un terminal local:
     ```
@@ -48,8 +48,6 @@ Usaremos la imagem oficial `Amazon Linux` para aprender algunos conceptos import
     https://aws.amazon.com/amazon-linux-2/
     [ec2-user@ip-172-31-50-1 ~]$
     ```
-
-    [**Windows**] Seguir as instruções do PuTTY: https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/putty.html
 
 10. Una vez logado en la máquina virtual, confirmar que el script de **cloud-init** fue ejecutado:
     ```
