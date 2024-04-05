@@ -22,7 +22,7 @@ Usaremos la imagem oficial `Amazon Linux` para aprender algunos conceptos import
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/ec2-05.png)
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/ec2-06.png)
 
-6. Usaremos un *script* de **`cloud-init`** para personalizar la instancia:
+6. En ***Advanced details***, usaremos un *script* de **`cloud-init`** para personalizar la instancia:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/ec2-07.png)
 
 7. Validar la instancia:
