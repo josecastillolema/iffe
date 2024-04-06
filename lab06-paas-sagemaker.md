@@ -70,6 +70,8 @@ Existen muchas herramientas de código abierto diferentes para visualizar los da
 ## Desafíos
 
 - Prueba alguna visualización usando [Bokeh](https://docs.bokeh.org/)
+   ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/sagemaker-09.png)
+
 
 ## *Clean up*
 
