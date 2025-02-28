@@ -58,7 +58,6 @@ Existen muchas herramientas de código abierto diferentes para visualizar los da
 
     ```
     import pandas as pd
-    import s3fs
 
     df = pd.read_csv('s3://iffe-mbd/data/lab1.csv')
     ```
