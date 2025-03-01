@@ -30,7 +30,7 @@ Existen muchas herramientas de código abierto diferentes para visualizar los da
 
 ## Creación del *notebook*
 
-1. Acceder al servicio **SageMaker**:
+1. Acceder al servicio **SageMaker AI**:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/sagemaker-01.png)
 
 2. Crear un nuevo *notebook*: **Notebook** -> **Notebook instances** -> **Create notebook instance**:
@@ -68,7 +68,7 @@ Existen muchas herramientas de código abierto diferentes para visualizar los da
 
 ## Desafíos
 
-- Prueba alguna visualización usando [Bokeh](https://docs.bokeh.org/)
+- Prueba alguna visualización usando [Bokeh](https://docs.bokeh.org/). Intenta hacer un histograma de clientes por estado.
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/sagemaker-09.png)
 
 
