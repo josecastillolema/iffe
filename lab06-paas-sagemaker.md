@@ -33,10 +33,8 @@ Existen muchas herramientas de código abierto diferentes para visualizar los da
 1. Acceder al servicio **SageMaker AI**:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/sagemaker-01.png)
 
-2. Crear un nuevo *notebook*: **Notebook** -> **Notebook instances** -> **Create notebook instance**:
+2. Crear un nuevo *notebook*: **Notebooks** -> **Create notebook instance**:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/sagemaker-02.png)
-
-   ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/sagemaker-03.png)
 
 3. Escoger un nombre para el *notebook* y `ml.t3.medium` como *flavor*:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/sagemaker-04.png)
