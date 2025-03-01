@@ -38,7 +38,7 @@ Existen muchas herramientas de código abierto diferentes para visualizar los da
 
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/sagemaker-03.png)
 
-3. Escoger un nombre para el *notebook* y `ml.t2.medium` como *flavor*:
+3. Escoger un nombre para el *notebook* y `ml.t3.medium` como *flavor*:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/sagemaker-04.png)
 
 4. Definir `LabRole` como IAM *role*. Estos permisos son creados de forma automática por el ambiente AWS Academy:
