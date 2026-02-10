@@ -54,12 +54,12 @@ Existen muchas herramientas de código abierto diferentes para visualizar los da
 
 7. Ejecutar los siguientes comandos para importar [este archivo `.csv`](https://github.com/josecastillolema/iffe/blob/main/lab01-iaas-s3/lab1.csv) desde el *notebook*:
 
-    ```
+    ```python
     import pandas as pd
 
     df = pd.read_csv('s3://iffe-mbd/data/lab1.csv')
     ```
-    ```
+    ```python
     df
     ```
     ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/sagemaker-08.png)
