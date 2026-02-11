@@ -53,20 +53,20 @@ Los *clusters* son el principal componente de infraestructura de un *data wareho
 6. Deshabilitar el registro con los permisos federados de Amazon Redshift:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/redshift-06_2.png)
 
-8. Confirmar la creación del clúster y esperar a que se encuentre disponible:
+7. Confirmar la creación del clúster y esperar a que se encuentre disponible:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/redshift-07.png)
 
 ## Conexión al banco
 
-7. Escoger la opción ***Query data*** -> ***Query in query editor***:
+8. Escoger la opción ***Query data*** -> ***Query in query editor***:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/redshift-08.png)
 
-8. Conectar al banco de datos recién creado:
+9. Conectar al banco de datos recién creado:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/redshift-09.png)
 
 ## Importación de datos de S3
 
-9. Ejecutar la siguiente *query* para crear una tabla `american_customers` con el esquema adecuado:
+10. Ejecutar la siguiente *query* para crear una tabla `american_customers` con el esquema adecuado:
     ```
     CREATE TABLE american_customers (
       customerID int,
@@ -81,10 +81,10 @@ Los *clusters* son el principal componente de infraestructura de un *data wareho
     ```
     ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/redshift-10.png)
 
-10. Para acceder a los datos de S3 desde Redshift necesitamos el *Amazon Resource Name* (ARN) de el IAM *role* `LabRole` (estos permisos son creados de forma automática por el ambiente AWS Academy). En una nueva pestaña del navegador, copiar el ARN correspondiente:
+11. Para acceder a los datos de S3 desde Redshift necesitamos el *Amazon Resource Name* (ARN) de el IAM *role* `LabRole` (estos permisos son creados de forma automática por el ambiente AWS Academy). En una nueva pestaña del navegador, copiar el ARN correspondiente:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/redshift-11.png)
 
-11. Ejecutar la siguiente *query* para importar los datos de S3 en la tabla `american_customers`:
+12. Ejecutar la siguiente *query* para importar los datos de S3 en la tabla `american_customers`:
     ```
     COPY american_customers FROM 's3://iffe-mbd/data/lab1.csv'
     credentials 'aws_iam_role=<iam-role-arn>'
@@ -93,7 +93,7 @@ Los *clusters* son el principal componente de infraestructura de un *data wareho
     ```
     ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/redshift-12.png)
 
-12. Ejecutar un *preview* de la tabla para confirmar que los datos fueron correctamente importados:
+13. Ejecutar un *preview* de la tabla para confirmar que los datos fueron correctamente importados:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/redshift-13.png)
 
 ## Desafíos
