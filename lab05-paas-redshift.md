@@ -41,7 +41,7 @@ Los *clusters* son el principal componente de infraestructura de un *data wareho
 2. Crear un nuevo clúster:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/redshift-03.png)
 
-3. Escoger un nombre para el clúster, `dc2.large` como *flavor* y 2 nodos como tamaño:
+3. Escoger un nombre para el clúster, `ra3.large` como *flavor* y 2 nodos como tamaño:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/redshift-04.png)
 
 4. Escoger una contraseña para el banco de datos:
@@ -50,7 +50,10 @@ Los *clusters* son el principal componente de infraestructura de un *data wareho
 5. Definir `LabRole` como IAM *role*. Estos permisos son creados de forma automática por el ambiente AWS Academy:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/redshift-06.png)
 
-6. Confirmar la creación del clúster y esperar a que se encuentre disponible:
+6. Deshabilitar el registro con los permisos federados de Amazon Redshift:
+   ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/redshift-06_2.png)
+
+8. Confirmar la creación del clúster y esperar a que se encuentre disponible:
    ![](https://raw.githubusercontent.com/josecastillolema/iffe/main/img/redshift-07.png)
 
 ## Conexión al banco
